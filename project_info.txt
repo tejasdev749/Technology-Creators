@@ -1,0 +1,5 @@
+- Simple iOS Dev Project for GitHub
+
+*Implemented in Objective C 
+*Demonstrated use of Table View in iOS
+*iOS App lists Technology names and their creators
