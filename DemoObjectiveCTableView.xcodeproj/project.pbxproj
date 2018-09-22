@@ -7,25 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A793BDD512BF12C44A08F63E /* libPods-DemoObjectiveCTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD966107C0D32D31B4EA427 /* libPods-DemoObjectiveCTableView.a */; };
+		E350CCEA21562E6A00145F53 /* StartAgainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E350CCE921562E6A00145F53 /* StartAgainCell.m */; };
 		E3758F86210775F40081F188 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3758F85210775F40081F188 /* AppDelegate.m */; };
-		E3758F89210775F40081F188 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3758F88210775F40081F188 /* ViewController.m */; };
 		E3758F8C210775F40081F188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3758F8A210775F40081F188 /* Main.storyboard */; };
 		E3758F8E210775F70081F188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3758F8D210775F70081F188 /* Assets.xcassets */; };
 		E3758F91210775F70081F188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3758F8F210775F70081F188 /* LaunchScreen.storyboard */; };
 		E3758F94210775F70081F188 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3758F93210775F70081F188 /* main.m */; };
+		E3758F9B210777720081F188 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3758F9A210777720081F188 /* CustomTableViewCell.m */; };
+		E3758F9E210777DE0081F188 /* ObjectiveCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3758F9D210777DE0081F188 /* ObjectiveCTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BD966107C0D32D31B4EA427 /* libPods-DemoObjectiveCTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoObjectiveCTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB6C5E3405D0439DCA4163A /* Pods-DemoObjectiveCTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoObjectiveCTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoObjectiveCTableView/Pods-DemoObjectiveCTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		9CA5DCBAC9DE5DCFEF1B4569 /* Pods-DemoObjectiveCTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoObjectiveCTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoObjectiveCTableView/Pods-DemoObjectiveCTableView.release.xcconfig"; sourceTree = "<group>"; };
+		E350CCE921562E6A00145F53 /* StartAgainCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartAgainCell.m; sourceTree = "<group>"; };
+		E350CCEB21562E7C00145F53 /* StartAgainCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartAgainCell.h; sourceTree = "<group>"; };
 		E3758F81210775F40081F188 /* DemoObjectiveCTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoObjectiveCTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3758F84210775F40081F188 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E3758F85210775F40081F188 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E3758F87210775F40081F188 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E3758F88210775F40081F188 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E3758F8B210775F40081F188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3758F8D210775F70081F188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3758F90210775F70081F188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3758F92210775F70081F188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3758F93210775F70081F188 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3758F9A210777720081F188 /* CustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		E3758F9C2107779D0081F188 /* CustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		E3758F9D210777DE0081F188 /* ObjectiveCTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCTableViewController.m; sourceTree = "<group>"; };
+		E3758F9F210777FC0081F188 /* ObjectiveCTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveCTableViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A793BDD512BF12C44A08F63E /* libPods-DemoObjectiveCTableView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1103757B864EE02156E2B3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EB6C5E3405D0439DCA4163A /* Pods-DemoObjectiveCTableView.debug.xcconfig */,
+				9CA5DCBAC9DE5DCFEF1B4569 /* Pods-DemoObjectiveCTableView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E3758F78210775F40081F188 = {
 			isa = PBXGroup;
 			children = (
 				E3758F83210775F40081F188 /* DemoObjectiveCTableView */,
 				E3758F82210775F40081F188 /* Products */,
+				A1103757B864EE02156E2B3B /* Pods */,
+				FCB3C70437DDC7DAFE243227 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +82,27 @@
 			children = (
 				E3758F84210775F40081F188 /* AppDelegate.h */,
 				E3758F85210775F40081F188 /* AppDelegate.m */,
-				E3758F87210775F40081F188 /* ViewController.h */,
-				E3758F88210775F40081F188 /* ViewController.m */,
 				E3758F8A210775F40081F188 /* Main.storyboard */,
 				E3758F8D210775F70081F188 /* Assets.xcassets */,
 				E3758F8F210775F70081F188 /* LaunchScreen.storyboard */,
 				E3758F92210775F70081F188 /* Info.plist */,
 				E3758F93210775F70081F188 /* main.m */,
+				E3758F9A210777720081F188 /* CustomTableViewCell.m */,
+				E3758F9C2107779D0081F188 /* CustomTableViewCell.h */,
+				E3758F9D210777DE0081F188 /* ObjectiveCTableViewController.m */,
+				E3758F9F210777FC0081F188 /* ObjectiveCTableViewController.h */,
+				E350CCE921562E6A00145F53 /* StartAgainCell.m */,
+				E350CCEB21562E7C00145F53 /* StartAgainCell.h */,
 			);
 			path = DemoObjectiveCTableView;
+			sourceTree = "<group>";
+		};
+		FCB3C70437DDC7DAFE243227 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BD966107C0D32D31B4EA427 /* libPods-DemoObjectiveCTableView.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +112,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3758F97210775F70081F188 /* Build configuration list for PBXNativeTarget "DemoObjectiveCTableView" */;
 			buildPhases = (
+				A6167BAB13383E6F1654F036 /* [CP] Check Pods Manifest.lock */,
 				E3758F7D210775F40081F188 /* Sources */,
 				E3758F7E210775F40081F188 /* Frameworks */,
 				E3758F7F210775F40081F188 /* Resources */,
@@ -136,14 +171,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A6167BAB13383E6F1654F036 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoObjectiveCTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E3758F7D210775F40081F188 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3758F89210775F40081F188 /* ViewController.m in Sources */,
+				E350CCEA21562E6A00145F53 /* StartAgainCell.m in Sources */,
 				E3758F94210775F70081F188 /* main.m in Sources */,
+				E3758F9B210777720081F188 /* CustomTableViewCell.m in Sources */,
 				E3758F86210775F40081F188 /* AppDelegate.m in Sources */,
+				E3758F9E210777DE0081F188 /* ObjectiveCTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,9 +339,11 @@
 		};
 		E3758F98210775F70081F188 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EB6C5E3405D0439DCA4163A /* Pods-DemoObjectiveCTableView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JVQZV8R2X;
 				INFOPLIST_FILE = DemoObjectiveCTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +357,11 @@
 		};
 		E3758F99210775F70081F188 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CA5DCBAC9DE5DCFEF1B4569 /* Pods-DemoObjectiveCTableView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JVQZV8R2X;
 				INFOPLIST_FILE = DemoObjectiveCTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
